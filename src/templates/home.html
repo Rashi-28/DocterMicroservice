@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1> WELCOME TO HOME PAGE </h1>
+        </div>
+        <br>
+        <div class="row">
+            Logged in: <strong>{{session.Name}} |  <a 
+            href="{{ url_for('logout') }}"> Logout </a>
+        </div>
+        <br><br> 
+        <div class="row">
+            <h2> WELCOME TO PROFILE PAGE </h2>
+        </div>
+       
+    </div>
+</body>
+</html>
